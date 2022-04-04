@@ -23,6 +23,6 @@ const googleAuthProvider = new GoogleAuthProvider();
 const firestore = getFirestore(firebaseApp)
 
 // uncomment during local development, using firestore & functions emulators
-connectFirestoreEmulator(firestore, 'localhost', 8080);
+// connectFirestoreEmulator(firestore, 'localhost', 8080);
 
 export {firebaseApp, firebaseAuth, googleAuthProvider, firestore}
