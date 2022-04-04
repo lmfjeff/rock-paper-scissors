@@ -52,7 +52,7 @@ For round data
 
 ## Database call:
 
-- room list: fetch once room list (roomId, loser)
+- room list:
   - fetch room list once (limit: 10), infinite query
   - create game
 - room/[roomId]: 
