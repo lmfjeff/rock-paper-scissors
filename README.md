@@ -74,9 +74,19 @@ npm install
 firebase emulators:start
 
 # run react in development mode
+# uncomment connectFirestoreEmulator in src/firebase/firebase.js 
+# so that dev app connect to local firestore
 cd ..
 npm start
 ```
+
+## Deployment
+
+- Create your own firebase project
+- activate google in sign-in method in authentication
+- replace your own firebase api key in src/firebase/firebase.js
+- deploy to firebase hosting and functions
+- restrict your api key to your own website in GCP console
 
 ## Possible improvement:
 
